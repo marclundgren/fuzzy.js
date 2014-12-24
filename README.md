@@ -35,3 +35,6 @@ console.log(results)
 // Art of Charm
 // Theory of Everything
 ```
+
+## Dependancies
+Lodash
