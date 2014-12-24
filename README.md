@@ -22,7 +22,7 @@ var podcasts = [{
     description: 'Each week, Jim and Greg bring you the latest music news and reviews.'
   },{
     title: 'Theory of Everything',
-    description: '∏ersonally connecting the dots. All of them.'
+    description: 'Personally connecting the dots. All of them.'
   }
 
 ];
