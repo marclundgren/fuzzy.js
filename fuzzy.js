@@ -2,15 +2,16 @@
 
 /* jshint strict:false */
 
-var _ = require('lodash');
+var filter = require('array-filter');
 
 var fuzzy = function(items, key) {
   return function (query) {
-    query     = query.toLowerCase();
-    return _.filter(items, function(item) {
-      var term = item[key].toLowerCase();
+    query = query.toLowerCase();
 
-      return _.contains(term, query);
+    var re = new RegExp(query, 'i');
+
+    return filter(items, function(item) {
+      return re.test(item[key]);
     });
   };
 };

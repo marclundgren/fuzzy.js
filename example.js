@@ -1,11 +1,3 @@
-fuzzy.js
-======
-
-A fuzzy search Functor in JavaScript
-
-## Use
-
-```javascript
 var fuzzy = require('./fuzzy');
 
 var podcasts = [{
@@ -34,8 +26,3 @@ var results = podcastSearch('of');
 console.log(results);
 // Art of Charm
 // Theory of Everything
-
-```
-
-## Dependancies
-Lodash

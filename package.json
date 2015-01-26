@@ -20,7 +20,8 @@
     "url": "https://github.com/marclundgren/fuzzy.js/issues"
   },
   "homepage": "https://github.com/marclundgren/fuzzy.js",
-  "devDependencies": {
-    "lodash": "^2.4.1"
+  "dependencies": {
+    "array-filter": "^0.2.0",
+    "browserify": "^8.1.1"
   }
 }
