@@ -36,6 +36,3 @@ console.log(results);
 // Theory of Everything
 
 ```
-
-## Dependancies
-Lodash
