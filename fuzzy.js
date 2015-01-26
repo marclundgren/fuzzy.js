@@ -1,6 +1,6 @@
 // Fuzzy utility
 
-/* jshint strict:false */
+'use strict';
 
 var filter = require('array-filter');
 
